@@ -1,0 +1,31 @@
+source "Kconfig.zephyr"
+
+config SAMPLING_FREQUENCY_HZ
+  int "sampling frequency in Hz"
+  default 100
+	help
+	  Sampling frequency in Hz for the sensor.
+
+config SENSOR_CHAN_NUMBER
+  int "Number of channels"
+  default 3
+	help
+	  Number of channel to be forwarded.
+
+config SENSOR_CHAN_READ
+  int "Channel to read"
+  default 3
+  help
+    Channel index to be read from the sensor. See sensor documentation for channel mapping.
+
+config SENSOR_NAME
+  string "Sensor name"
+  default ""
+	help
+	  Name of the sensor to be used.
+
+config SENSOR_ALIAS_NAME
+  string "Sensor alias name"
+  default ""
+	help
+	  Name of alias of the sensor to be used.

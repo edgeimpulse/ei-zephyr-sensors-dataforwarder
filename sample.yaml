@@ -1,0 +1,11 @@
+sample:
+  description: ei-zephyr-data-collection, an example on how to collect data using Edge Impulse SDK on Zephyr OS
+    application
+  name: ei-zephyr-data-collection
+common:
+    tags: introduction
+    harness: console
+    harness_config:
+      type: one_line
+      regex:
+        - "Hello World! (.*)"
