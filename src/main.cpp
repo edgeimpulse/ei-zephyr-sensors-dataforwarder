@@ -95,7 +95,7 @@ int main() {
             }
             printk("%.3f", sensor_value_to_double(&array_sensor_value[i]));
         }
-        printk("\r\n");
+        printk("\n");
 
         // busy loop until next value should be grabbed
         while (k_timer_status_get(&next_val_timer) <= 0);
