@@ -1,4 +1,3 @@
-
 /* The Clear BSD License
  *
  * Copyright (c) 2025 EdgeImpulse Inc.

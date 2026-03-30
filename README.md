@@ -23,8 +23,8 @@ Key settings are:
 - `SENSOR_ALIAS_NAME` Name of the alias
 
 > [!NOTE]
-> To set the sensor you want to use, you need to conifg one of the between `CONFIG_SENSOR_ALIAS_NAME` and `CONFIG_SENSOR_NAME`.
-> You might need to set the peripherl needed to communicate with the sensor.
+> To set the sensor you want to use, you need to config just one between `CONFIG_SENSOR_ALIAS_NAME` and `CONFIG_SENSOR_NAME`.
+> You might need to set the peripheral needed to communicate with the sensor (usually I2C or SPI).
 
 ### Using a shield
 If you are using a shield, rememebr to pass it using the --shield parameter ie
